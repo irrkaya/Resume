@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Page </title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;600&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="cstyle.css">
+</head>
+
+<body>
+
+	<!-- NAVIGATION BAR   -->
+
+	<div class="topnav">
+		<div class="logo">
+			<a href="index.html">
+				<img src="images/logo.jpg" alt="logo">
+			</a>
+		</div>
+
+		<div class="navhover">
+			<a class="active" href="index.html">Home</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="Contact.html">Contact</a>
+		</div>
+	</div>
+
+	<header>
+		<div class="header-wrap">
+			<h1>Contact With Me</h1>
+		</div>
+	</header>
+
+	<!-- Contact Form -->
+
+	<img src="images/pexels-cottonbro-4065624.jpg" alt="contact with me">
+	<div class="container">
+
+		<form id="contact-form" action="/submit" method="post">
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email" placeholder="Your email..">
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:125px"></textarea>
+			<input type="submit" value="Submit" id="submit-btn">
+		</form>
+	</div>
+
+	<footer>
+
+		<div class="content-wrap">
+			<h2>Let's Keep in Touch!</h2>
+			<!-- Social media and contact links. Add or remove any networks. -->
+			<ul class="contact-list">
+				<li><a href="mailto:insoyaker@gmail.com">insoyaker@gmail.com</a></li>
+				<li><a href="https://www.linkedin.com/in/irem-nur-irene-soyaker-0a8861141/">Linkedin</a></li>
+			</ul>
+		</div>
+	</footer>
+	<script src="index.js"></script>
+
+</body>
+
+</html>

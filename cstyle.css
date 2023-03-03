@@ -1,0 +1,181 @@
+/* Navigation style */
+ .logo img{
+  float: left;
+  width:75px; 
+  border-radius: 50%;
+  margin: 5px 50px;
+  margin-right: 1000px;
+  padding: 0;
+} 
+
+.topnav {
+    background-color: #343434;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topnav a {
+    float: center;
+    color: #F7FFF7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navhover a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Header */
+
+.header-wrap {
+    background-color: #2F3061;
+    color: #F7FFF7;
+    font-family: 'Caveat', cursive;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  font-size: 100px;
+}
+ * {
+   margin: 0;
+   padding: 0;
+ }
+a {
+  color: #FFE66D;
+}
+
+/*Contact Form*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #2F3061;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #343434;
+  }
+  body {
+    background: #F7FFF7;
+    color: #343434;
+    margin: 0;
+    padding: 0;
+   /* font-family: 'Montserrat', sans-serif; */
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+   display: block;
+   overflow: hidden;
+   box-sizing: inherit;
+   background: #F7FFF7;
+  }
+  :placeholder-shown {
+    font-family: 'Montserrat', sans-serif;
+  }
+  img{
+    width: 300px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* footer */
+
+  footer {
+    background: #343434;
+    color: #F7FFF7; 
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+    color: #F7FFF7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-list a:hover{
+  background-color: #ddd;
+  color: black;
+}
+h2 {
+  font-size: 45px;
+}
+.content-wrap {
+  padding: 1px 0;
+}
+
+
+@media screen and (min-width:750px) {
+  header, footer {
+      text-align: center;
+  } 
+  .project-item img {
+      float: left;
+      margin-right: 20px;
+  }
+
+  .contact-list {
+      display: flex;    
+      justify-content: center;
+  }
+}
+@media screen and (max-width:749px) {
+  h1 {
+      font-size: 75px;
+      line-height: 0.9;
+      margin-bottom: 20px;
+  }
+  h2 {
+      line-height: 1;
+  }
+  .contact-list a {
+      padding: 5px;
+  }
+}
+html {
+  box-sizing: border-box;
+} 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
